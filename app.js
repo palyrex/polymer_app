@@ -24,6 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/components',  express.static(__dirname + '/components'))
 app.use('/elements',  express.static(__dirname + '/elements'))
+app.use('/starter',  express.static(__dirname + '/starter'))
 
 // app.use('/', routes);
 // app.use('/users', users);

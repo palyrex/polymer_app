@@ -16,6 +16,8 @@
   <link rel="import" href="../components/core-toolbar/core-toolbar.html">
   <link rel="import" href="../components/paper-tabs/paper-tabs.html">
 
+  <link rel="import" href="/starter/post-card.html">
+
   <style>
   html,body {
     height: 100%;
@@ -62,13 +64,22 @@
   <core-header-panel>
 
     <core-toolbar>
-
       <paper-tabs id="tabs" selected="all" self-end>
         <paper-tab name="all">All</paper-tab>
         <paper-tab name="favourites">Favourites</paper-tab>
       </paper-tabs>
-
     </core-toolbar>
+
+    <section class="container" layout vertical center>
+
+      <post-card>
+        <img width="70" height="70" 
+          src="/images/avatar-07.svg">
+        <h2>Another Developer</h2>
+        <p>I'm composing with shadow DOM!</p>
+      </post-card>
+      
+    </section>
 
   </core-header-panel>
   
