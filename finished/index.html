@@ -17,7 +17,7 @@
     href="../components/core-toolbar/core-toolbar.html">
   <link rel="import"
     href="../components/paper-tabs/paper-tabs.html">
-  <link rel="import" href="post-list.html">
+  <link rel="import" href="/finished/post-list.html">
 
   <style>
   html,body {

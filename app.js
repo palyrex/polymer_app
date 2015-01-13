@@ -28,11 +28,16 @@ app.use('/starter',  express.static(__dirname + '/starter'))
 app.use('/post-service',  express.static(__dirname + '/post-service'))
 app.use('/api',  express.static(__dirname + '/api'))
 
+app.use('/finished',  express.static(__dirname + '/finished'))
+
 // app.use('/', routes);
 // app.use('/users', users);
-
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/starter/index.html');
+});
+
+app.get('/done', function(req, res) {
+    res.sendFile(__dirname + '/finished/index.html');
 });
 
 // catch 404 and forward to error handler
