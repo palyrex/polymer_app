@@ -2,7 +2,7 @@
 
 This project includes a set of Polymer components and a starter project.
 
-In this tutorial, I've build a simple client for `unquote`, the read-only social networking service.
+In this tutorial, I've build a simple client for the read-only social networking service.
 
 
 ## Project contents
